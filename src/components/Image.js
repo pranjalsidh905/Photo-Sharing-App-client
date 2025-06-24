@@ -8,7 +8,7 @@ import { addLike, removeLike } from '../services/PhotoServices';
 import useLikeStatus from '../hooks/useLikeStatus';
 
 function Image({ imageUrl, title, publisher, publisherName, id }) {
-console.log(">>>>>>>>>>>>imageUrl",imageUrl)
+// console.log(">>>>>>>>>>>>imageUrl",imageUrl)
   const { user } = useUserContext();
   const [likeStatus] = useLikeStatus(id, user);
   const [likeButton, setLikeButton] = useState(false);
