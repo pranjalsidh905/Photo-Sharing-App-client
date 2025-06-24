@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE_URL = 'https://photo-sharing-app-server-f4ph.onrender.com';
+const BASE_URL = 'https://photo-sharing-app-server-ryb6.onrender.com';
 export const getUser = async (userId) => {
       if (!userId) throw new Error("userId is required");
     const { data } = await axios.get(`${BASE_URL}/users/${userId}`);
