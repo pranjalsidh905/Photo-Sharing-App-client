@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Direct base URL — replace this with your actual backend URL
-const BASE_URL = "https://photo-sharing-app-server-f4ph.onrender.com"; // 👈 Replace this
+const BASE_URL = "https://photo-sharing-app-server-ryb6.onrender.com"; // 👈 Replace this
 
 export const Signup = async (email, username, password) => {
   return await axios.post(`${BASE_URL}/users/register`, {

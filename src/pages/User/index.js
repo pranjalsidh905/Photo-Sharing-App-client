@@ -21,7 +21,7 @@ function Profile() {
         getUser(id).then(d => { setData(d.user) });
 
     }, [user, id]);
-console.log(">>>>>>>>>>>>>>>>>>>>>>",id)
+
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
